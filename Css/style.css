@@ -1,0 +1,121 @@
+/* * COMMON CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1187px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+/* * COMMON CSS  END*/
+
+
+/* NAV STARTS */
+nav {
+    background-color: #02918c;
+}
+
+nav .logo {
+    width: 40%;
+}
+nav .menu {
+    width: 60%;
+    text-align: right;
+}
+
+nav .menu ul li {
+    display: inline-block;
+}
+
+nav .menu ul li a {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 25.5px 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: block;
+    transition: .5s;
+}
+
+nav .menu ul li:hover a {
+    color: black;
+}
+/* NAV END */
+
+/* *BANNER STARTS HERE */
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-color: rgba(0, 0, 0, 0.34);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 100%;
+    height: 727px;
+}
+
+.banner .container {
+    height: 100%;
+}
+
+.banner .row {
+    height: 100%;
+    margin: auto;
+}
+
+.banner-content {
+   text-align: center;
+   color: #ffffff;
+   width: 100%;
+}
+
+.banner-content h4 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.banner-content h1 {
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 31px;
+}
+
+.banner-content img {
+    margin: 52px 0px;
+}
+
+.banner-content a {
+    color: #0b1016;
+    background-color: #cfc91d;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 16px 43px;
+    display: inline-block;
+}
+
+
+/* *BANNER ENDS HERE */
